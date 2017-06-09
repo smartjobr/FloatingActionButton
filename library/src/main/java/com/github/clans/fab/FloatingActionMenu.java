@@ -156,8 +156,6 @@ public class FloatingActionMenu extends ViewGroup {
         mMenuColorPressed = attr.getColor(R.styleable.FloatingActionMenu_menu_colorPressed, 0xFFE75043);
         mMenuColorRipple = attr.getColor(R.styleable.FloatingActionMenu_menu_colorRipple, 0x99FFFFFF);
         mAnimationDelayPerItem = attr.getInt(R.styleable.FloatingActionMenu_menu_animationDelayPerItem, 50);
-        mIcon = attr.getDrawable(R.styleable.FloatingActionMenu_menu_icon);
-
         int iconRes = attr.getResourceId(R.styleable.FloatingActionMenu_menu_icon, 0);
         if (mIcon == null) {
             if (iconRes != 0) {
